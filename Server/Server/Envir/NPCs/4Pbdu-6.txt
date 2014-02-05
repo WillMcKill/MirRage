@@ -1,0 +1,48 @@
+; ===================================
+; Market Def NPC File : 4Pbdu-6
+; 
+; -----------------------------------
+; Name: Gordon
+; Job: 
+; Map No: 6
+; Pos X 129
+; Pos Y 143
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+
+
+[Main]
+If you are about to take a long journey,
+buy drugs as many as you can.
+Those drugs will save you many times.
+Even if you get the highest honour,
+it is no use after your death. Ain't that right?
+
+<buy/Buy> drug
+<sell/Sell> drug
+<close/Exit>
+
+[Buy]
+Which one do you want to buy?
+
+<back/Main>
+
+
+[Sell]
+You want to sell?
+I will pay you more for precious ones.
+
+<back/Main>
+
+[Types]
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(HP)DrugLarge
+(MP)DrugSmall
+(MP)DrugMedium
+(MP)DrugLarge

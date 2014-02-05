@@ -1,0 +1,30 @@
+; ===================================
+; Market Def NPC File : 1Mme-3
+; Butcher in MongchonProvince
+; -----------------------------------
+; Name: Rupert
+; Job: Butcher
+; Map No: 3
+; Pos X 355
+; Pos Y 329
+; File name: *removed*
+; Comment: Butcher in MongchonProvince
+
+;================================================= =
+;
+
+[Main]
+Welcome, what can I do for you today?
+
+<Sell/Sell> Meat.
+<Nothing thanks/Exit>.
+
+[Sell]
+We'll buy high quality at high price.
+But we'll buy at low price meat stained with soil or burned by fire.
+
+<Back/Main>
+
+[Types]
+15
+

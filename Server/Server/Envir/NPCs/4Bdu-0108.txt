@@ -1,0 +1,28 @@
+[Main]
+Welcome. How can I help you?
+
+<Buy/Buy> Drug
+<Sell/Sell> Drug
+<Cancel/Exit>
+
+[Buy]
+Which item do you want to buy?
+
+<Back/Main>
+
+
+[Sell]
+Show me your item, I'll offer you a good price.
+
+<Back/Main>
+
+[Types]
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(HP)DrugLarge
+(MP)DrugSmall
+(MP)DrugMedium
+(MP)DrugLarge

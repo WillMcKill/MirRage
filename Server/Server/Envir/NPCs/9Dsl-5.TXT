@@ -1,0 +1,16 @@
+[Main]
+Anyone wants to go to the mainland, please board. 
+Not so much time left for the departure.
+
+<pay 2000 gold/toBanya> and board 
+<talk with the sailor/talk>
+
+[toBanya]
+#IF
+checkgold 2000
+#ACT
+takegold 2000
+Move 0 252 674
+#ELSESAY
+You haven't got enough money. Please check it again.
+<close/Exit>

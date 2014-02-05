@@ -1,0 +1,26 @@
+; ===================================
+; Market Def NPC File : 9Mwh-0145
+; Storage (MongchonProvince)
+; -----------------------------------
+; Name: Ruben
+; Job: 
+; Map No: 0145
+; Pos X 9
+; Pos Y 12
+; File name: *removed*
+; Comment: Storage (MongchonProvince)
+
+;================================================= =
+
+
+[Main]
+Cough cough....I'm the keeper of this warehouse.
+We don't charge people for storage service yet
+so use it before we do.
+<Use Storage/Storage>
+<Close/Exit>
+
+[Storage]
+What kind of item do you like to store?
+
+<Back/Main>

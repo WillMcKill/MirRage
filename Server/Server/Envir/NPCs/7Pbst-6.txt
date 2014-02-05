@@ -1,0 +1,48 @@
+; ===================================
+; Market Def NPC File : 7Pbst-6
+; 
+; -----------------------------------
+; Name: Jack
+; Job: 
+; Map No: 6
+; Pos X 134
+; Pos Y 154
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+
+[Main]
+Hmmmm, You need to have many useful items
+while exploring. Dangerous places. Have a look.
+Take your time. Of caurse, they are not free.
+
+<buy/Buy>
+<sell/Sell>
+<close/Exit>
+
+[Buy]
+What do you want to buy?
+
+<back/Main>
+
+
+[Sell]
+What do you want to sell?
+
+<back/Main>
+
+[Types]
+8
+12
+
+[Trade]
+Candle
+Torch
+RandomTeleport
+DungeonEscape
+TownTeleport
+Amulet
+GreenPoison
+RedPoison
+RepairOil

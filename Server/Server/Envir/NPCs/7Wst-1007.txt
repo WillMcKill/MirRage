@@ -1,0 +1,47 @@
+; ===================================
+; Market Def NPC File : 7Wst-1007
+; WareHouse
+; -----------------------------------
+; Name: Jerry
+; Job: 
+; Map No: 1007
+; Pos X 11
+; Pos Y 14
+; File name: *removed*
+; Comment: WareHouse
+
+;================================================= =
+
+[Main]
+This is a place to store implements or
+tools for people at the taiost school.
+Sometimes items will be sold to tourists who pass by.
+since this is a so secluded place that
+a lot of people might get into trouble.
+<Buy/Buy> implements
+<Sell/Sell> implements
+<Cancel/Exit>
+
+[Buy]
+Which implement would you like to buy?
+
+<Back/Main>
+
+[Sell]
+We buy Candles, Amulets, Scrolls RepairOils, etc.
+<Back/Main>
+
+[Types]
+8
+12
+
+[Trade]
+Candle
+Torch
+RandomTeleport
+DungeonEscape
+TownTeleport
+Amulet
+GreenPoison
+RedPoison
+RepairOil

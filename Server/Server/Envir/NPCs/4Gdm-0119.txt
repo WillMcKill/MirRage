@@ -1,0 +1,103 @@
+; ===================================
+; Market Def NPC File : 4Gdm-0119
+; ReagentStore ()
+; -----------------------------------
+; Name: Jack
+; Job: 
+; Map No: 0119
+; Pos X 14
+; Pos Y 14
+; File name: *removed*
+; Comment: ReagentStore ()
+
+;================================================= =
+;
+
+;Settings
+%100
++0
++42
+
+;Pkr Tag (NPC won't talk to Pkrs)
+[@main]
+#IF
+checkpkpoint 2
+#SAY
+I will not help an evil person like you..\ \
+<Ok/@exit>
+
+#ELSEACT
+goto @main-1
+
+
+[@main-1]
+What kind of poison do you want to make?\ \
+<Make/@makedrug> Poison\
+<Listen to explanation/@helpmakedrug>\
+<Cancel/@exit>
+
+[@makedrug]
+Select what kind of drug you want to make.\
+Needless to say... You did bring all the ingredients didn't you?\ \
+<Back/@main>
+
+
+[@helpmakedrug]
+Two kinds of poison can be made here.\ \
+<Grey Poison powder/@helpdrug1> effect\
+<Yellow Poison powder/@helpdrug2> effect\
+<Ingredients/@helpmakedrug1> to make Grey Poison\
+<Ingredients/@helpmakedrug2> to make Yellow Poison\
+<Back/@main>
+
+
+[@helpdrug1]
+Grey Poison powder can be used by taoists when they execute\
+Poisoning skill. If the target is poisoned, its health power\
+will slowly decrease.\ \
+<Back/@helpmakedrug>
+
+
+[@helpdrug2]
+Yellow Poison powder can be used by taoists when they execute\
+Poisoning skill. If the target is poisoned, its defence strength\
+will decrease.\ \
+<Back/@helpmakedrug>
+
+
+[@helpmakedrug1]
+Grey Poison ingredients are\ \
+     <1 CannibalFruit/@helpitem1>\
+     <2 SpiderTeeth/@helpitem1>\
+     <4 CannibalLeafs/@helpitem1>\
+<Back/@helpmakedrug>
+
+
+[@helpmakedrug2]
+Grey Poison ingredients are\\
+     <1 MaggotPill/@helpitem2>\
+     <1 ScorpionTail/@helpitem2>\
+     <4 CannibalLeafs/@helpitem2>\
+<Back/@helpmakedrug>
+
+[@helpitem1]
+CannbibalFruit can be harvested from CannibalPlants.\
+SpiderTeeth can be harvested from SpittingSpiders.\
+CannibalLeafs can be harvested from CannibalPlants.\
+These mobs can be found in WoomyonWoods\ \
+<back/@helpmakedrug1>
+
+[@helpitem2]
+MaggotPills can be harvested from CaveMaggots.\
+ScorpionTails can be harvested from Scorpions.\
+CannibalLeafs can be harvested from CannibalPlants.\
+CaveMaggots and Scorpions can be found in oma and natural\
+cave. While CannibalPlants live in WoomyonWoods.\ \
+<back/@helpmakedrug2>
+
+[goods]
+;Item		Amount		Time
+YellwPoison(S)		200	1
+GreyPoison(S)		200	1
+YellwPoison(M)		200	1
+GreyPoison(M)		200	1

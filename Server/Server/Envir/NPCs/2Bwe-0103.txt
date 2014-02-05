@@ -1,0 +1,47 @@
+[Main]
+Welcome to my shop? How can I be of assistance?
+<Buy Weapon/Buy>
+<Sell Weapon/Sell>
+<Repair Weapon/Repair>
+<Ask about Weapon/Qweapon>
+<Cancel/Exit>
+
+[Buy]
+Please select the item you wish to buy.
+<Back/Main>
+
+[Sell]
+Show me the weapon you wish to sell.
+<Back/Main>
+
+[Repair]
+Which weapon would you like repaired?
+<Back/Main>
+
+[Qweapon]
+When you buy a store weapon, it has some limits to its performance.
+However, weapons acquired from monsters (when they drop them after
+being slain), occasionally have a higher rating. If you bring any
+such weapons to me, I will usually offer a better price for it.
+Remember that an item's price is dependant upon it's condition. If
+it has high durability, it's selling price is usually higher.
+<Back/Main>
+
+[Types]
+1
+
+[Trade]
+WoodenSword
+HoaSword
+Dagger
+EbonySword
+BronzeSword
+SharpHoaSword
+ShortSword
+IronSword
+BasicVelocityBlades
+BronzeAxe
+HookedSword
+Trident
+Scimitar
+VelocityBlades

@@ -1,0 +1,70 @@
+; ===================================
+; Market Def NPC File : 8Pbac-6
+; 
+; -----------------------------------
+; Name: Harvey
+; Job: 
+; Map No: 6
+; Pos X 116
+; Pos Y 128
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+
+
+[Main]
+These accessories will empower you with their
+special abilities. Don't be ashamed by using
+accessories. Because you will face something
+a lot stronger than you are.
+
+<buy/Buy>
+<sell/Sell>
+<repair/Repair>
+<close/Exit>
+
+[Buy]
+I hope you find something useful here...
+Everything is scarce in this kind of battlefield.
+
+<back/Main>
+
+[Sell]
+Show me, if you got something I might ger interested.
+
+<back/Main>
+
+[Repair]
+My skills aren't rusty yet.
+If you have something to repair, give it to me.
+
+<back/Main>
+
+
+[Types]
+5
+6
+7
+
+[Trade]
+CopperRing
+HexagonalRing
+GlassRing
+HornRing
+IronRing
+WhiteJadeRing
+BlueRing
+IronBracelet
+ThinBracelet
+LeatherGlove
+SilverBracelet
+SteelBracelet
+LargeBracelet
+GoldNecklace
+PrecisionNecklace
+BlackNecklace
+EbonyNecklace
+YellowNecklace
+
+

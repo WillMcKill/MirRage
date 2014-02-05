@@ -1,0 +1,16 @@
+[Main]
+Do you come to sell meat?
+
+<Sell/Sell> meat
+<Cancel/Exit>
+
+[Sell]
+We'll buy high quality at high price.
+But we'll buy at low price meat stained
+with soil,or burned by fire.
+
+<Back/Main>
+
+[Types]
+15
+

@@ -1,0 +1,52 @@
+[Main]
+Welcome. What can I do for you?
+
+<Buy/Buy>  Clothes
+<Sell/Sell>  Clothes
+<Repair/Repair> Clothes
+<Close/Exit>
+
+
+[Buy]
+What would you like to buy?
+
+<Back/Main>
+
+[Sell]
+Show me your Clothes to be sold. I'll give you an appraisement...
+We also treat Helmets.
+So if you don't want something, sell it here.
+
+<Back/Main>
+
+[Repair]
+What item would you like to repair?
+
+<Back/Main>
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+BaseDress(M)
+BaseDress(F)
+LightArmour(M)
+LightArmour(F)
+HeavyArmour(M)
+HeavyArmour(F)
+MagicRobe(M)
+MagicRobe(F)
+SoulArmour(M)
+SoulArmour(F)
+RelicArmour(M)
+RelicArmour(F)
+BronzeHelmet
+MagicHelmet
+LeatherBelt
+ChainBelt
+LowShoes
+LeatherBoots

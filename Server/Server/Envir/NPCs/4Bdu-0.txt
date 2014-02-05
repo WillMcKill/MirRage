@@ -1,0 +1,29 @@
+[Main]
+Welcome. You can buy all kind of Drugs here
+
+<Buy/Buy> Drug
+<Sell/Sell> Drug
+<Cancel/Exit>
+
+
+[Buy]
+What item do you want?
+
+<Back/Main>
+
+
+[Sell]
+Show me your items.
+
+<Back/Main>
+
+[Types]
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(HP)DrugLarge
+(MP)DrugSmall
+(MP)DrugMedium
+(MP)DrugLarge

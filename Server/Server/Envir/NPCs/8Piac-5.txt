@@ -1,0 +1,80 @@
+; ===================================
+; Market Def NPC File : 8Piac-5
+; Jeweler (PrajnaIsland)
+; -----------------------------------
+; Name: Emily
+; Job: 
+; Map No: 5
+; Pos X 154
+; Pos Y 338
+; File name: *removed*
+; Comment: Jeweler (PrajnaIsland)
+
+;================================================= =
+
+
+[Main]
+Hi,
+Welcome to cute Emily's accessory shop.
+
+<buy/Buy>
+<sell/Sell>
+<repair/Repair>
+<talk with Emily/Talk>
+<close/Exit>
+
+[Buy]
+Many shinning accessories here.
+Wow Sir/Ma'am, This would suit you very good!
+Don't you think?
+
+<back/Main>
+
+[Sell]
+Please show me what you want to sell.
+It will be a lot better, if you sell things
+that we don't have.
+
+<back/Main>
+
+[Repair]
+Reparing? I'm so good at it.
+Please trust me. I'll make it look like brand new.
+
+<back/Main>
+
+
+[Talk]
+There are several places where you should not go
+on this island. I've been one of the places, when I
+was young and I learned my lesson.
+You should be carefull too.
+
+<back/Main>
+
+[Types]
+5
+6
+7
+
+[Trade]
+CopperRing
+HexagonalRing
+GlassRing
+HornRing
+IronRing
+WhiteJadeRing
+BlueRing
+IronBracelet
+ThinBracelet
+LeatherGlove
+SilverBracelet
+SteelBracelet
+LargeBracelet
+GoldNecklace
+PrecisionNecklace
+BlackNecklace
+EbonyNecklace
+YellowNecklace
+
+

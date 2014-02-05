@@ -1,0 +1,71 @@
+; ===================================
+; Market Def NPC File : 3Pidr-B353
+; PrajnaIsland (ClothesShop)
+; -----------------------------------
+; Name: Susan
+; Job: 
+; Map No: B353
+; Pos X 13
+; Pos Y 14
+; File name: *removed*
+; Comment: PrajnaIsland (ClothesShop)
+
+;================================================= =
+
+
+[Main]
+Welcome, Do you want to have look at the traditional costumes of
+Prajna Island?
+
+<buy/Buy>
+<sell/Sell>
+<repair/Repair>
+<move outside/Tmove>
+<close/Exit>
+
+[Tmove]
+#IF
+#ACT
+map 5 145 325
+
+[Buy]
+Please, take your time.
+
+<back/Main>
+
+[Sell]
+Would you mind showing me the clothes you want to sell?
+
+<back/Main>
+
+[Repair]
+I'm really good at repairing clothes. Just give me a chance.
+
+<back/Main>
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+BaseDress(M)
+BaseDress(F)
+LightArmour(M)
+LightArmour(F)
+HeavyArmour(M)
+HeavyArmour(F)
+MagicRobe(M)
+MagicRobe(F)
+SoulArmour(M)
+SoulArmour(F)
+RelicArmour(M)
+RelicArmour(F)
+BronzeHelmet
+MagicHelmet
+LeatherBelt
+ChainBelt
+LowShoes
+LeatherBoots

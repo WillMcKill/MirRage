@@ -1,0 +1,30 @@
+[Main]
+Welcome! What can I do for you?
+<Buy Ring/Buy>
+<Sell Ring/Sell>
+<Repair Ring/Repair>
+<Cancel/Exit>
+
+[Buy]
+Which ring would you like to buy?
+<Back/Main>
+
+[Sell]
+Show me the ring you want to sell.
+<Back/Main>
+
+[Repair]
+Which ring would you like to repair.\ 
+<Back/@Main>
+
+[Types]
+7
+
+[Trade]
+CopperRing
+HexagonalRing
+GlassRing
+HornRing
+IronRing
+WhiteJadeRing
+BlueRing

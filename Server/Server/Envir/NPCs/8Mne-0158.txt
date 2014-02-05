@@ -1,0 +1,103 @@
+; ===================================
+; Market Def NPC File : 8Mne-0158
+; Jewelers
+; -----------------------------------
+; Name: Rachel
+; Job: 
+; Map No: 0158
+; Pos X 4
+; Pos Y 21
+; File name: *removed*
+; Comment: Jewelers
+
+;================================================= =
+;
+
+;Settings
+%100
++20
++19
++21
+
+[@main]
+#IF
+checkpkpoint 2
+#SAY
+I will not help such an evil person like you..\ \
+<Ok/@exit>
+
+#ELSEACT
+goto @main-1
+
+
+[@main-1]
+Welcome. What can I do for you?\ \
+<Buy/@buy> necklace\
+<Sell/@sell> necklace\
+<Repair/@repair> necklace\
+<Get/@Tmove> Out\
+<Cancel/@exit>
+
+[@Tmove]
+#IF
+random 5
+#ACT
+mapmove 3 300 294
+break
+
+#IF
+random 5
+#ACT
+mapmove 3 301 294
+break
+
+#IF
+random 5
+#ACT
+mapmove 3 301 293
+break
+
+#IF
+random 5
+#ACT
+mapmove 3 291 303
+break
+
+#IF
+random 5
+#ACT
+mapmove 3 290 303
+break
+
+#ELSEACT
+goto @Tmove
+
+[@buy]
+Would you like to buy a necklace?\ \ \
+<Back/@main>
+
+[@sell]
+What kind of necklace would you like to sell?\ \ \
+<Back/@main>
+
+[@repair]
+Would you like to repair necklace?\ \ \
+<Back/@main>
+
+[~@repair]
+Your necklace seems repaired fine.\ \
+<Back/@main>
+
+[goods]
+;Item		Amount		Time
+GoldNecklace		200	1
+AmberNecklace		200	1
+YellowNecklace		200	1
+EbonyNecklace		200	1
+BlackNecklace		200	1
+WarriorNecklce		200	1
+JadeNecklace		200	1
+LanternNeckl		200	1
+NagaNecklace		200	1
+PhoenixBead		200	1
+PlatinNecklace		200	1

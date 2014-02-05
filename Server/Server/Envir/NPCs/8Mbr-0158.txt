@@ -1,0 +1,49 @@
+; ===================================
+; Market Def NPC File : 8Mbr-0158
+; 
+; -----------------------------------
+; Name: Kelly
+; Job: 
+; Map No: 0158
+; Pos X 16
+; Pos Y 11
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+
+
+[Main]
+Welcome. What can I do for you?
+
+<Buy/Buy> bracelet
+<Sell/Sell> bracelet
+<Repair/Repair> bracelet
+<Cancel/Exit>
+
+[Buy]
+Would you like to buy a bracelet?
+
+<Back/Main>
+
+[Sell]
+What kind of bracelet would you like to sell.
+
+<Back/Main>
+
+[Repair]
+Would you like to repair necklace.
+
+<Back/Main>
+
+
+[Types]
+6
+
+[Trade]
+IronBracelet
+ThinBracelet
+LeatherGlove
+SilverBracelet
+SteelBracelet
+LargeBracelet

@@ -1,0 +1,46 @@
+; ===================================
+; Market Def NPC File : 4Wdu-1006
+; GeneralStore (WoomyonWoods)
+; -----------------------------------
+; Name: Janey
+; Job: 
+; Map No: 1006
+; Pos X 9
+; Pos Y 10
+; File name: *removed*
+; Comment: PotionStore (TaoVillage)
+
+;================================================= =
+
+[Main]
+I have studied pharmacy,
+while other people wanted to study in swordsmanship
+or fighting skills. I decided to study the art of medicine
+to save people's lives. It's really important work to me.
+
+<Buy/Buy> Drug
+<Sell/Sell> Drug
+<Cancel/Exit>
+
+[Buy]
+Which Drug do you want to buy?
+
+<Back/Main>
+
+
+[Sell]
+Show me your item, I'll offer you a good price.
+
+<Back/Main>
+
+
+[Types]
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(HP)DrugLarge
+(MP)DrugSmall
+(MP)DrugMedium
+(MP)DrugLarge

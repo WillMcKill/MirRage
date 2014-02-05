@@ -1,0 +1,52 @@
+; ===================================
+; Market Def NPC File : 8Tbr-0141
+; Jewelers
+; -----------------------------------
+; Name: Betty
+; Job: Jeweler
+; Map No: 0141
+; Pos X 16
+; Pos Y 16
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+;
+
+[Main]
+Welcome, What can I do for you?
+
+<Buy/Buy> bracelet
+<Sell/Sell> bracelet
+<Repair/Repair> bracelet
+<Cancel/Exit>
+
+[Buy]
+Please select from the list what you'd like to buy.
+
+
+
+<Back/Main>
+
+[Sell]
+Which bracelet do you want to sell?
+We also treat gloves.
+
+<Back/Main>
+
+[Repair]
+You can repair various kinds of bracelets,gloves and plates.
+<Back/Main>
+
+
+
+[Types]
+6
+
+[Trade]
+IronBracelet
+ThinBracelet
+LeatherGlove
+SilverBracelet
+SteelBracelet
+LargeBracelet

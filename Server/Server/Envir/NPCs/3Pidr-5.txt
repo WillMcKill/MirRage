@@ -1,0 +1,79 @@
+; ===================================
+; Market Def NPC File : 3Pidr-5
+; PrajnaIsland (ClothesShop)
+; -----------------------------------
+; Name: Daria
+; Job: 
+; Map No: 5
+; Pos X 154
+; Pos Y 324
+; File name: *removed*
+; Comment: PrajnaIsland (ClothesShop)
+
+;================================================= =
+
+
+[Main]
+Welcome. You come here from buying armour?
+
+<buy/Buy>
+<sell/Sell>
+<repair/Repair>
+<talk with Daria/Talk>
+<cancel/Exit>
+
+
+[Buy]
+They are all made of fine fabrics imported from the mainland
+so the quality is absolutely guaranteed.
+Have a look and take your time.
+
+<back/Main>
+
+[Sell]
+Please show me your clothes you want to sell.
+I'll pay more, if the quality of the cloth is good.
+
+<back/Main>
+
+[Repair]
+I'll show the skills earned from 20 years of sewing experience.
+Ok..just give it to me. I'll repair it just as it was.
+
+<back/Main>
+
+
+[Talk]
+There is a suddon increase of evil monsters here...
+Definitely, something will happen to us i'm scared...
+
+<back/Main>
+
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+BaseDress(M)
+BaseDress(F)
+LightArmour(M)
+LightArmour(F)
+HeavyArmour(M)
+HeavyArmour(F)
+MagicRobe(M)
+MagicRobe(F)
+SoulArmour(M)
+SoulArmour(F)
+RelicArmour(M)
+RelicArmour(F)
+BronzeHelmet
+MagicHelmet
+LeatherBelt
+ChainBelt
+LowShoes
+LeatherBoots
+

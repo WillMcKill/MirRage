@@ -1,0 +1,30 @@
+; ===================================
+; Market Def NPC File : 6Wwh-11
+; Storage (TaoTown)
+; -----------------------------------
+; Name: Hubert
+; Job: 
+; Map No: 11
+; Pos X 184
+; Pos Y 297
+; File name: *removed*
+; Comment: Storage (TaoTown)
+
+;================================================= =
+
+[Main]
+I am the warden of this house teaching the apprentice
+the rules and regulations to make them responsible members
+of the community. You have nowhere else to deposit your belongings?
+You can keep them here. We have many empty rooms nowadays
+due to decreasing member of enrollment from Tao apprentices.
+
+<Use Storage/Storage>
+<Close/Exit>
+
+
+[Storage]
+You want to keep your items here, Sir/Ma'am? Of course you can.
+Please show me the items you want to deposit.
+
+<Back/Main>

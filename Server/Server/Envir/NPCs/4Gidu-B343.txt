@@ -1,0 +1,46 @@
+; ===================================
+; Market Def NPC File : 4Gidu-B343
+; 
+; -----------------------------------
+; Name: Murray
+; Job: 
+; Map No: B343
+; Pos X 12
+; Pos Y 16
+; File name: *removed*
+; Comment:
+
+;================================================= =
+
+
+[Main]
+Caugh.. caugh..., welcome.
+I'm to old to climb a mountain to collect herbs.
+So i'm here just selling potions for a living.
+See anything you want to buy?
+
+<Buy/Buy> drug
+<Sell/Sell> drug
+<Close/Exit>
+
+[Buy]
+Which item do you want to buy?
+
+<Back/Main>
+
+
+[Sell]
+Show me your item, I'll offer you a good price.
+
+<Back/Main>
+
+[Types]
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(HP)DrugLarge
+(MP)DrugSmall
+(MP)DrugMedium
+(MP)DrugLarge

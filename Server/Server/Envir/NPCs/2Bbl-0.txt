@@ -1,0 +1,17 @@
+[Main]
+Hello, my name is Bill and i'm a master artisan,
+I'm part of the guild known as HandOfGod because of my unsurpassed
+skills in handling special repair for seceral different
+kind of items and weapons. I will be staying here with my
+fellow brothers for a while, do you need my help maybe?
+<Special Repair Weapon/SRepair>
+
+
+[SRepair]
+Hey guy! You are very lucky...
+We have material to do special repairs,
+
+<Close/@Exit>
+
+[Types]
+1

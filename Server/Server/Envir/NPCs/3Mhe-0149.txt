@@ -1,0 +1,48 @@
+; ===================================
+; Market Def NPC File : 3Mhe-0149
+; 
+; -----------------------------------
+; Name: Michelle
+; Job: 
+; Map No: 0149
+; Pos X 8
+; Pos Y 5
+; File name: *removed*
+; Comment: Clothesshop
+
+;================================================= =
+
+
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> Helmet
+<Sell/Sell> Helmet
+<Repair/Repair> Helmet
+<Cancel/Exit>
+
+[Buy]
+What Helmet do you want to buy?
+
+<Back/Main>
+
+[Sell]
+Show me your Helmet to be sold. I'll give you an appraisement.
+So if you like my store please sell them to me.
+
+<Back/Main>
+
+[Repair]
+You can repair Helmets here.
+
+<Back/Main>
+
+
+[Types]
+9
+
+[Trade]
+BronzeHelmet
+MagicHelmet
+
+

@@ -1,0 +1,27 @@
+; ===================================
+; Npc Def NPC File : RightEscort-6
+; 
+; -----------------------------------
+; Name: Herald
+; Job: 
+; Map No: 6
+; Pos X 
+; Pos Y 
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+;
+
+[Main]
+My duty is to protect the general at all cost.
+
+<talk/talk>
+<close/Exit>
+
+[talk]
+My task is important but I feel sorry watching my fellow
+soldiers dying at the battlefield while fighting against
+the omas.
+
+<close/Exit>

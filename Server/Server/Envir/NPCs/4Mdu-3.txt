@@ -1,0 +1,44 @@
+; ===================================
+; Market Def NPC File : 4Mdu-3
+; PotionStore (MongchonProvince)
+; -----------------------------------
+; Name: Daniel
+; Job: 
+; Map No: 3
+; Pos X 361
+; Pos Y 335
+; File name: *removed*
+; Comment: PotionStore (MongchonProvince)
+
+;================================================= =
+
+
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> Drug
+<Sell/Sell> Drug
+<Cancel/Exit>
+
+[Buy]
+Which item do you want to buy?
+
+<Back/Main>
+
+
+[Sell]
+Show me your item, I'll offer you a good price.
+
+<Back/Main>
+
+
+[Types]
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(HP)DrugLarge
+(MP)DrugSmall
+(MP)DrugMedium
+(MP)DrugLarge

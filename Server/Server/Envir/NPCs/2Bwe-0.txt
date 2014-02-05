@@ -1,0 +1,16 @@
+[Main]
+Glad to see you, how can I help you?
+
+<Repair/Repair> weapon.
+<Special repair/SRepair> weapon.
+<Leave/Exit>
+
+[Repair]
+Would you like to repair your weapon?
+ <Back/Main>
+
+[SRepair]
+What Weapon do you want to prefectly repaired?
+
+[Types]
+1

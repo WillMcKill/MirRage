@@ -1,0 +1,18 @@
+[Main]
+The ferry to Prajna island will depart soon 
+Passengers, please board the ship.
+
+<Pay 2000 gold and board/toBanya> 
+<talk/talk>
+
+[toBanya]
+#IF
+checkgold 2000
+#ACT
+takegold 2000
+Move 5 124 353
+#ELSESAY
+You haven't got enough money. 
+Please check how much you have.
+
+<close/Exit>

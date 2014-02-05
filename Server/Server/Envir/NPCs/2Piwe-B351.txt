@@ -1,0 +1,75 @@
+; ===================================
+; Market Def NPC File : 2Piwe-B351
+; PrajnaIsland (WeaponShop)
+; -----------------------------------
+; Name: Keith
+; Job: 
+; Map No: B351
+; Pos X 8
+; Pos Y 9
+; File name: *removed*
+; Comment: PrajnaIsland (WeaponShop)
+
+;================================================= =
+
+
+[Main]
+There are many usefull weapons here.
+Please have a look.
+
+<buy weapon/Buy>
+<sell weapon/Sell>
+<repair weapon/Repair>
+<conduct special repair/SRepair>
+<move outside/@Tmove>
+<Close/@exit>
+
+[@Tmove]
+#IF
+#ACT
+map 5 128 303
+break
+
+[Buy]
+You found anything you like?
+
+<back/Main>
+
+[Sell]
+The price is up to the condition of the weapon.
+
+<back/Main>
+
+[Repair]
+If you want, i'll repair it for you.
+But I recommend you special repair.
+
+<back/Main>
+
+[SRepair]
+Hey guy! You are very lucky...
+We have material to do special repairs,
+Instead, please keep in mind that the price
+would be 3 times higher than normal price.
+
+<back/Main>
+
+
+[Types]
+1
+
+[Trade]
+WoodenSword
+HoaSword
+Dagger
+EbonySword
+BronzeSword
+SharpHoaSword
+ShortSword
+IronSword
+BasicVelocityBlades
+BronzeAxe
+HookedSword
+Trident
+Scimitar
+VelocityBlades

@@ -1,0 +1,29 @@
+; ===================================
+; Market Def NPC File : 6Piwh-5
+; PrajnaIsland (Storage)
+; -----------------------------------
+; Name: Heather
+; Job: 
+; Map No: 5
+; Pos X 142
+; Pos Y 311
+; File name: *removed*
+; Comment: PrajnaIsland (Storage)
+
+;================================================= =
+
+
+[Main]
+Cough cough....I'm the keeper of this warehouse.
+We don't charge people for storage service yet
+so use it before we do.
+<Use Storage/Storage>
+<close/Exit>
+
+
+[Storage]
+What kind of item do you like to store?
+
+ <back/Main>
+
+

@@ -1,0 +1,63 @@
+; ===================================
+; Market Def NPC File : 7Est-DM001
+; GroceryStore (WickedShop)
+; -----------------------------------
+; Name: WickedTrader
+; Job: 
+; Map No: DM001
+; Pos X 4
+; Pos Y 6
+; File name: *removed*
+; Comment: GroceryStore (WickedShop)
+
+;================================================= =
+;
+
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> item
+<Sell/Sell> item
+<Repair/Repair> item
+<Cancel/Exit>
+
+
+[Buy]
+Which items do you need?
+
+
+
+<Back/Main>
+
+[Sell]
+We buy Candles, Weapons, Armour, Scrolls, RepairOils, Pots etc.
+<Back/Main>
+
+[Repair]
+Would you like to repair your item?
+<Back/Main>
+
+
+
+[Types]
+1
+2
+4
+5
+6
+7
+9
+10
+
+
+[Trade]
+(HP)DrugMedium
+(MP)DrugMedium
+Candle
+PeddlerTorch
+RandomTeleport
+DungeonEscape
+Amulet
+GreenPoison
+RedPoison
+RepairOil

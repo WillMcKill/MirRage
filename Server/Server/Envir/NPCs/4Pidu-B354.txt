@@ -1,0 +1,51 @@
+; ===================================
+; Market Def NPC File : 5_pot-B354
+; PrajnaIsland (PotionShop)
+; -----------------------------------
+; Name: Zack
+; Job: 
+; Map No: B354
+; Pos X 11
+; Pos Y 11
+; File name: *removed*
+; Comment: PrajnaIsland (PotionShop)
+
+;================================================= =
+
+
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> drug
+<Sell/Sell> drug
+<Cancel/Exit>
+
+[Buy]
+Which item do you want to buy?
+
+ <Back/Main>
+
+
+[Sell]
+Show me your item, I'll offer you a good price.
+
+ <Back/Main>
+
+[Types]
+8
+12
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(MP)DrugSmall
+(MP)DrugMedium
+Candle
+Torch
+RandomTeleport
+DungeonEscape
+TownTeleport
+Amulet
+GreenPoison
+RedPoison

@@ -1,0 +1,27 @@
+; ===================================
+; Market Def NPC File : 6Mwh-3
+; 
+; -----------------------------------
+; Name: Stanislav
+; Job: 
+; Map No: 6
+; Pos X 94
+; Pos Y 157
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+
+
+[Main]
+Cough cough....I'm the keeper of this warehouse.
+We don't charge people for storage service yet
+so use it before we do.
+
+<Use Storage/Storage> items
+<close/Exit>
+
+[Storage]
+What kind of item do you like to store?
+
+<back/Main>

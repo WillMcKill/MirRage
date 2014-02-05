@@ -1,0 +1,43 @@
+; ===================================
+; Market Def NPC File : 4Mdu-0160
+; PotionStore ()
+; -----------------------------------
+; Name: Raymond
+; Job: 
+; Map No: 0160
+; Pos X 5
+; Pos Y 8
+; File name: *removed*
+; Comment: PotionStore ()
+
+;================================================= =
+
+
+[Main]
+Welcome, how may I help you?
+<Buy/Buy> Item
+<Sell/Sell> Item
+<Cancel/Exit>
+
+[Buy]
+Which Item do you want to buy?
+
+<Back/Main>
+
+
+[Sell]
+Show me your Item, I'll offer you a good price.
+
+<Back/Main>
+
+
+[Types]
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(HP)DrugLarge
+(MP)DrugSmall
+(MP)DrugMedium
+(MP)DrugLarge

@@ -1,0 +1,48 @@
+; ===================================
+; Market Def NPC File : 7Gst-0
+; GroceryStore (BorderVillage)
+; -----------------------------------
+; Name: Gabriel
+; Job: 
+; Map No: 0
+; Pos X 643
+; Pos Y 611
+; File name: *removed*
+; Comment: GroceryStore (BorderVillage)
+
+;=====================================
+
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> Item
+<Sell/Sell> Item
+<Cancel/Exit>
+
+[Buy]
+Which items do you need?
+
+
+<Back/Main>
+
+[Sell]
+We buy Candles, Amulets, Scrolls RepairOils, etc.
+<Back/Main>
+
+
+[Types]
+8
+12
+
+[Trade]
+Candle
+Torch
+RandomTeleport
+DungeonEscape
+TownTeleport
+Amulet
+GreenPoison
+RedPoison
+RepairOil
+
+

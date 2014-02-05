@@ -1,0 +1,41 @@
+[Main]
+Welcome. What can I do for you?
+
+<Buy/Buy> bracelet
+<Sell/Sell> bracelet
+<Repair/Repair> bracelet
+<Cancel/Exit>
+
+[Buy]
+Please select list you'd like to buy.
+
+
+<Back/Main>
+
+[Sell]
+Which bracelet would you like to sell?
+We also treat gloves.
+
+
+<Back/Main>
+
+[Repair]
+You can repair various kinds of bracelets,gloves and plates.
+
+
+
+<Back/Main>
+
+
+[Types]
+6
+
+[Trade]
+IronBracelet
+ThinBracelet
+LeatherGlove
+SilverBracelet
+SteelBracelet
+LargeBracelet
+
+

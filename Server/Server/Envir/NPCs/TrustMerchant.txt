@@ -1,0 +1,25 @@
+[Main]
+<Consign/Consign> Item
+
+<View Market/Market>.
+
+<View Consignments/Consignments>
+
+[Consign]
+Rules and Regulations.
+1) It will cost you 5,000 Gold to List an Item,
+2) I will charge you 5% of every sale that is compelted.
+3) Your Item must be listed for more than or equal to 5,000 Gold
+4) Your Item must be listed for less than or equal to 50,000,000
+5) Your items will be listed for 7 Days before they are no longer shown.
+
+
+<Back/Main>
+
+<Exit/Exit>
+
+
+
+[Market]
+
+[Consignments]

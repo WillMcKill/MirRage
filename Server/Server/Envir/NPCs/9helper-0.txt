@@ -1,0 +1,164 @@
+; ===================================
+; NPC File : 9helper-0
+; BichonProvince
+; -----------------------------------
+; Name: Assistant
+; Job: 
+; Map No: 0
+; Pos X 284
+; Pos Y 606
+;===================================
+
+[Main]
+Hi? Are you a beginner in this game?
+I can guide you with a brief explanation.
+
+<Ask about how to play Mir2/next>
+
+[next]
+First, let me tell you how to talk to an NPC.
+First click on the NPCs body. Yellow text in
+the dialogue is a link to another set of
+dialogue.
+
+<Next/next1>
+
+[next1]
+Select one among the categorys below.
+<How to wear items/Wear>
+<How to move/Move>
+<How to fight/Fight>
+<Command terms/Talk>
+<Martial art/Skill>
+
+<Function key/Hotkey>
+<Close/exit>
+
+[Wear]
+If you press F9 (bag window) and F10 (status window)
+you will see the two windows. To wear an item, you have
+to drag item from the bag window and drop it onto the wearing position
+in the status window.
+
+<Wearing positions/Wear2>
+
+[Wear2]
+Wearing positions:
+Garments - Body
+Weapons - Right hand
+Necklaces - Right top corner
+Candle/Torch - Below necklace
+Bracelet - Below candle position
+Ring - Below bracelet position
+
+<Back/Main>
+
+[Move]
+Mouse moving:
+Left button: For basic action eg. walking, attacking,
+and moving items.
+Right button: If you click around or near you, you can
+face different directions, if you click (and hold) you
+will run.
+Shift + left: you can force attack.
+
+<Back/Main>,  <Continue/Move2>
+
+[Move2]
+Ctrl + left: Run
+Ctrl + right: View other players equipment like you view
+your own.
+Alt + left: You can harvest dead bodies to <get items/@Getitem>.
+Double click: If you double click an on item on the ground you
+can pick it up. If do that on items in the bag you will use that
+item.
+
+<Back/Move>
+
+[Getitem]
+You can do this on dead body of deer, hen, sheep and wolf to get
+meat, on CannibalPlant to get CannibalLeaf or CannibalFruit
+on BugBatMaggot to get a MaggotPill and on SpittingSpider 
+to get SpiderTeeth.
+
+<Back/Move>
+
+[Fight]
+Basically you can attack by simply clicking left button.
+But, if this doesn't work you can force attack by pressing
+Shift + left.
+
+<Back/Main>
+
+[Talk]
+/Characer Name - You can whisper to other players. No distance limit.
+If you left click on character name in chatting window whisper function
+will be activated automatically.
+!message - You can shout. (Shown in yellow color, 10 seconds limit)
+!!message - The message will be heard only within your group.
+!~message - The message will be heard only by Guild members, message
+color is green
+
+<Back/Main>, <Continue/Talk2>
+
+[Talk2]
+@rejectwhisper - It will reject all incoming whisper. If you reconnect or
+use it once more then you will allow again whispering.
+@ban Character name - You can reject whispering from specific character,
+others same as above.
+@rejectshouting - This will block any incoming shouting.
+@reject_Guild_Chat - This will block any incoming Guild Chat.
+@leave_Guild - You can left your current guild.
+Direction keys - You can see past dialogue by using them.
+
+<Back/Talk>
+
+[Skill]
+In order to learn your first skill, you need to be level 7.
+Warriors can learn <Fencing/@Onehand>, Taoists can learn
+<Healing/@Heal> and Wizards can learn <Fireball/@Fireball>.
+Books are sold at the bookstore of Border village, Bichon Wall
+or Mongchon province. After the first skills, some books can
+be bought from bookstore others can be acquired only by killing
+monsters or traded between players.
+
+<Back/Main>
+
+[Onehand]
+As a Warrior's martial art, you can learn it
+by double clicking on book when you reach level 7
+Accuracy value will increase as you level up
+so will the attack success chances.
+
+<Back/@Skill>
+
+[Heal]
+As a Taoist's martial art , you can learn it
+by double clicking on book when you reach level 7
+as skill level increase, HP healed will raise
+
+<Back/Skill>
+
+[Fireball]
+As a Wizard's skill, you can learn it
+by double clicking on book when you reach level 7
+as skill level increase, damage dealt will raise
+
+<Back/Skill>
+
+[Hotkey]
+F1-F8    Shortcut for skills
+F9       Bag window
+F10      Status window
+F11      Skill status window
+Ctrl+H   changing attack mode
+Ctrl+F   changing letter font 
+Ctrl+A   <Tamed monster/Slave> attack mode
+
+<Back/Main>
+
+[Slave]
+Tamed monsters are a Wizard's tamed monsters
+or a Taoist's BoneFamiliar or Shinsu.
+
+<Back/Hotkey>

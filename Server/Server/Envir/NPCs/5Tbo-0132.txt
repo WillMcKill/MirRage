@@ -1,0 +1,182 @@
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> Books
+<Sell/Sell> Books
+<Listen to the explanation/helpBooks> about skills
+<Cancel/Exit>
+
+[Buy]
+Please select the Book you want to buy.
+
+
+
+<Back/Main>
+
+[Sell]
+Show me the Books you want to sell.
+
+
+
+<Back/Main>
+
+
+[helpBooks]
+What kinds of Books are you interested in?
+
+Warriors can learn the following <spells/help1>
+Taoists can learn the following <spells/help2>
+Wizards can learn the following <spells/help3>
+<Back/Main>
+
+
+[help1]
+From Lvl  7 Fencing
+From Lvl 15 Slaying
+From Lvl 22 Thrusting
+From Lvl 26 HalfMoon
+From Lvl 30 ShoulderDash
+From Lvl 32 TwinDragnBlade
+From Lvl 32 Entrapment
+<More/m1> <Back/helpBooks>
+
+[m1]
+From Lvl 35 FlamingSword
+From Lvl 36 LionRoar
+From Lvl 38 CrossHalfMoon
+From Lvl 38 BladeAvalanche
+From Lvl 39 ProtectionField
+From Lvl 44 Rage
+From Lvl 50 SlashingBust
+<Back/helpBooks>
+
+[help2]
+From Lvl  7 Healing
+From Lvl  9 SpiritSword
+From Lvl 14 Poisoning
+From Lvl 18 SoulFireBall
+From Lvl 19 SummonSkeletonton
+From Lvl 20 Hiding
+<Next/help21>
+
+[help21]
+From Lvl 21 MassHiding
+From Lvl 22 SoulShield
+From Lvl 23 Revelation
+From Lvl 25 BlessedArmour
+From Lvl 27 EnergyRepulsor
+From Lvl 28 TrapHexagon
+From Lvl 30 Purification
+<More/m2> <Back/helpBooks>
+
+[m2]
+From Lvl 31 MassHealing
+From Lvl 31 Hallucination
+From Lvl 33 UltimateEnhancer
+From Lvl 35 SummonShinsu
+From Lvl 37 Reincarnation
+From Lvl 38 SummonHolyDeva
+From Lvl 40 Curse
+From Lvl 43 PoisonCloud
+From Lvl 48 CelestalShield
+<Back/helpBooks>
+
+[help3]
+From Lvl  7 FireBall
+From Lvl 12 Repulsion
+From Lvl 13 ElectricShock
+From Lvl 15 GreatFireball
+From Lvl 16 Hellfire
+From Lvl 17 Thunderbolt
+<Next/help31>
+
+[help31]
+From Lvl 19 Teleport
+From Lvl 22 FireBang
+From Lvl 24 FireWall
+From Lvl 26 Lightning
+From Lvl 28 FrostCrunch
+From Lvl 30 Thunderstorm
+From Lvl 31 MagicShield
+From Lvl 32 TurnUndead
+<More/m3> <Back/helpBooks>
+
+[m3]
+From Lvl 33 Vampirism
+From Lvl 35 IceStrom
+From Lvl 38 FlameDisruptor
+From Lvl 41 Mirroring
+From Lvl 42 FlameField
+From Lvl 44 Blizzard
+From Lvl 49 MeteorStrike
+From Lvl 53 IceFreeze
+<Back/helpBooks>
+
+[help4]
+From Lvl  7 Fatal Sword
+From Lvl 15 Double Slash
+From Lvl 20 Haste
+From Lvl 25 Flash Dash
+From Lvl 27 Light Body
+From Lvl 30 Heavenly Sword
+From Lvl 33 Fire Burst
+<More/m4> <Back/helpBooks>
+
+[m4]
+From Lvl 33 Trap
+From Lvl 34 Poison Sword
+From Lvl 36 MoonLight
+From Lvl 38 MP Eater
+From Lvl 40 Swift Feet
+From Lvl 46 Dark Body!
+From Lvl 50 Moon Blade!
+<Back/helpBooks>
+
+[Types]
+20
+
+[Trade]
+Fencing
+Slaying
+Thrusting
+Halfmoon
+ShoulderDash
+TwinDrakeBlade
+LionRoar
+CrossHalfMoon
+FireBall
+Repulsion
+ElectricShock
+GreatFireBall
+HellFire
+ThunderBolt
+Teleport
+FireBang
+FireWall
+Lightning
+FrostCrunch
+ThunderStorm
+MagicShield
+TurnUndead
+Vampirism
+FlameDisruptor
+IceStorm
+Healing
+SpiritSword
+Poisoning
+SoulFireBall
+SummonSkeleton
+Hiding
+MassHiding
+SoulShield
+BlessedArmour
+EnergyRepulsor
+Purification
+MassHealing
+SummonShinsu
+FatalSword
+DoubleSlash
+Haste
+LightBody
+HeavenlySword
+FireBurst

@@ -1,0 +1,44 @@
+[Main]
+Welcome. What can I do for you?
+
+<Buy/Buy> necklace
+<Sell/Sell> necklace
+<Repair/Repair> necklace
+<Cancel/Exit>
+
+[Buy]
+Would you like to buy a necklace?
+
+
+
+<Back/Main>
+
+[Sell]
+What kind of necklace would you sell?
+
+
+
+<Back/Main>
+
+[Repair]
+Would you want to repair necklace?
+
+
+
+<Back/@main>
+
+
+
+[Types]
+5
+
+
+[Trade]
+GoldNecklace
+PrecisionNecklace
+BlackNecklace
+EbonyNecklace
+YellowNecklace
+
+
+

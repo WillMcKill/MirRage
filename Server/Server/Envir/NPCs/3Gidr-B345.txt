@@ -1,0 +1,80 @@
+; ===================================
+; Market Def NPC File : 3Gidr-b345
+; 
+; -----------------------------------
+; Name: Belina
+; Job: 
+; Map No: b345
+; Pos X 12
+; Pos Y 12
+; File name: *removed*
+; Comment:
+
+;================================================= =
+
+
+[Main]
+Hi,it's such a nice day.
+
+<Buy/Buy> clothes
+<Sell/Sell> clothes
+<repair/Repair> clothes
+<Talk/Talk> with Belina
+<Close/Exit>
+
+[Buy]
+Do you want to buy clothes?
+Then, please have a look.
+
+<Back/Main>
+
+[Sell]
+We buy everything either old or new clothes.
+Just show me anything you've got.
+
+<Back/Main>
+
+[Repair]
+As long as the clothes are not too much damaged,
+you can wear them by repairing them constantly.
+Do you want to repair yours?
+
+<Back/Main>
+
+[@talk]
+This castle was built to be used as a base to defeat the
+monsters around Woomyon Forest. So after the construction
+was completed, many people were forced to settle down here.
+But.....\
+we are far from deafeating the monsters and we are instead
+surrounded by them so the situation is reversed.
+
+<Back/Main>
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+BaseDress(M)
+BaseDress(F)
+LightArmour(M)
+LightArmour(F)
+HeavyArmour(M)
+HeavyArmour(F)
+MagicRobe(M)
+MagicRobe(F)
+SoulArmour(M)
+SoulArmour(F)
+RelicArmour(M)
+RelicArmour(F)
+BronzeHelmet
+MagicHelmet
+LeatherBelt
+ChainBelt
+LowShoes
+LeatherBoots
+

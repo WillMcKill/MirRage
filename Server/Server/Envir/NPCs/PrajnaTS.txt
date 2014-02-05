@@ -1,0 +1,16 @@
+[Main]
+Worship me you little thing, then you will be able to
+break the boundary of time and space to go to the past.
+
+<to the past/PB>
+<I will stay here/Exit>
+
+[PB]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 6 63 247
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.

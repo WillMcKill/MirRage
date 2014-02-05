@@ -1,0 +1,29 @@
+; ===================================
+; Market Def NPC File : 2Ewe-D716
+; Blacksmith in         (RepairRoom)
+; -----------------------------------
+; Name: Edward
+; Job: Blacksmith
+; Map No: D71650
+; Pos X 23
+; Pos Y 27
+; File name: *removed*
+; Comment: Blacksmith in      (RepairRoom)
+
+;================================================= =
+;
+
+[Main]
+Are you here to find out something new?
+I guess you know that it is dangerous here.
+The only thing I can do for you is repair your weapons.
+
+<Repair/Repair> weapon
+<Cancel/Exit>
+
+
+[Repair]
+Do you want to repair your weapon?
+
+<Back/Main>
+

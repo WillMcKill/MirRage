@@ -1,0 +1,45 @@
+; ===================================
+; Market Def NPC File : 2Wwe-1
+; Blacksmith in WoomyonWoods
+; -----------------------------------
+; Name: Jang
+; Job: Blacksmith
+; Map No: 1
+; Pos X 314
+; Pos Y 72
+; File name: *removed*
+; Comment: Blacksmith in WoomyonWoods
+
+;================================================= =
+
+
+[Main]
+Glad to see you, how can I help you?
+
+<Repair/Repair> weapon
+<Special repair/@SRepair> weapon
+<Cancel/Exit>
+
+
+[Repair]
+Would you like to repair your weapon?
+<Back/Main>
+
+[Types]
+1
+
+[Trade]
+WoodenSword
+HoaSword
+Dagger
+EbonySword
+BronzeSword
+SharpHoaSword
+ShortSword
+IronSword
+BasicVelocityBlades
+BronzeAxe
+HookedSword
+Trident
+Scimitar
+VelocityBlades

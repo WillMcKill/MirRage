@@ -1,0 +1,67 @@
+; ===================================
+; Market Def NPC File : 3Sdr-2
+; Clothesshop (SerpentValley)
+; -----------------------------------
+; Name: Melissa
+; Job: 
+; Map No: 2
+; Pos X 517
+; Pos Y 477
+; File name: *removed*
+; Comment: Clothesshop (SerpentValley)
+
+;================================================= =
+
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> Clothes
+<Sell/Sell> Clothes
+<Repair/Repair> Clothes
+<Cancel/Exit>
+
+
+[Buy]
+Which item would you like to buy?
+
+
+<Back/Main>
+
+[Sell]
+Show me your Clothes to be sold. I'll give you an appraisement.
+We also trade Helmets.
+So if you like my store please sell them to me.
+
+<Back/Main>
+
+[Repair]
+You can repair Clothes and Helmets here.
+
+<Back/Main>
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+BaseDress(M)
+BaseDress(F)
+LightArmour(M)
+LightArmour(F)
+HeavyArmour(M)
+HeavyArmour(F)
+MagicRobe(M)
+MagicRobe(F)
+SoulArmour(M)
+SoulArmour(F)
+RelicArmour(M)
+RelicArmour(F)
+BronzeHelmet
+MagicHelmet
+LeatherBelt
+ChainBelt
+LowShoes
+LeatherBoots

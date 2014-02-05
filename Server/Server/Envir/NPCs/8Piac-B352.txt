@@ -1,0 +1,72 @@
+; ===================================
+; Market Def NPC File : 8Piac-B352
+; Jeweler (PrajnaIsland)
+; -----------------------------------
+; Name: Grace
+; Job: 
+; Map No: B352
+; Pos X 7
+; Pos Y 9
+; File name: *removed*
+; Comment: Jeweler (PrajnaIsland)
+
+;================================================= =
+
+
+[Main]
+Tst,tst.. When Emily will grow up....
+oh, Welcome Sir/Ma'am.
+
+<buy/Buy>
+<sell/Sell>
+<repair/Repair>
+<close/Exit>
+
+
+[Buy]
+There are many accessories.
+Please take your time and have a look.
+
+<back/Main>
+
+[Sell]
+The proce is up to the condition of the item
+you want to sell.
+Please show me what you want to sell.
+
+<back/Main>
+
+[Repair]
+I'll throughly repair it, just show me.
+
+<back/Main>
+
+
+[Types]
+5
+6
+7
+
+[Trade]
+CopperRing
+HexagonalRing
+GlassRing
+HornRing
+IronRing
+WhiteJadeRing
+BlueRing
+IronBracelet
+ThinBracelet
+LeatherGlove
+SilverBracelet
+SteelBracelet
+LargeBracelet
+GoldNecklace
+PrecisionNecklace
+BlackNecklace
+EbonyNecklace
+YellowNecklace
+
+
+
+

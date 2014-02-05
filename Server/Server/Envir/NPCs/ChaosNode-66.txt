@@ -1,0 +1,15 @@
+[Main]
+#IF
+checkitem DragonScale 1 
+#ACT
+takeitem DragonScale 1
+#SAY
+<Enter the dragon lair./tele>
+#ELSESAY
+You do not have the DragonScale!
+
+<Close/Exit>
+
+[tele]
+#ACT
+Move D2081 30 50

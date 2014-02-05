@@ -1,0 +1,92 @@
+[Main]
+ Hello I'm Jason, the wandering warrior.
+ I transport men and goods to other places
+ fast and safe. Just pay the fee
+ then i'll escort you to anywhere.
+ So what do you say?
+
+ <I'll use the service/tele>
+ <Maybe next time/exit>
+
+[tele]
+ Now which place you wanna go?
+
+ <Border Village(500 gold)/move1>
+ <Ginko Tree Valley(500 gold)/move2>
+ <Serpent Valley(500 gold)/move3>
+ <Tao School(1000 gold)/move4>
+ <CastleGi-Ryoong(1000 gold)/move5>
+ <Mongchon Province(1000 gold)/move6>
+ <Maybe next time/exit>
+
+[move1]
+#IF
+CHECKGOLD 500
+#ACT
+takegold 500
+Move 0 289 617
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/exit>
+
+[move2]
+#IF
+CHECKGOLD 500
+#ACT
+TakeGold 500
+Move 0 635 613
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/@exit>
+
+[move3]
+#IF
+CHECKGOLD 500
+#ACT
+TakeGold 500
+Move 2 500 485
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/exit>
+
+[move4]
+#IF
+CHECKGOLD 1000
+#ACT
+TakeGold 1000
+Move 11 164 337
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/exit>
+
+[move5]
+#IF
+CHECKGOLD 1000
+#ACT
+TakeGold 1000
+Move 4 264 257
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/exit>
+
+[move6]
+#IF
+checkgold 1000
+#ACT
+TakeGold 1000
+Move 3 361 342
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/exit>

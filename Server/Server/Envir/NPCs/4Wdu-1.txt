@@ -1,0 +1,59 @@
+; ===================================
+; Market Def NPC File : 4Wdu-1
+; GeneralStore (WoomyonWoods)
+; -----------------------------------
+; Name: Annie
+; Job: 
+; Map No: 1
+; Pos X 309
+; Pos Y 81
+; File name: *removed*
+; Comment: GeneralStore (WoomyonWoods)
+
+;================================================= =
+
+
+[Main]
+
+Welcome, how may I help you?
+
+<Buy/Buy> Item
+<Sell/Sell> Item
+<Cancel/Exit>
+
+
+[talk] 
+You know of the OmaWarrior? It has one big axe, and looks
+like like evil spirit..
+If you see the monster be careful.
+
+<Ok/Exit>
+
+[Buy]
+Which Items do you need?
+
+<Back/Main>
+
+[Sell]
+We buy Candles, Amulets, Scrolls RepairOils, Pots etc.
+
+<Back/Main>
+
+[Types]
+8
+12
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(MP)DrugSmall
+(MP)DrugMedium
+Candle
+Torch
+RandomTeleport
+DungeonEscape
+TownTeleport
+Amulet
+GreenPoison
+RedPoison

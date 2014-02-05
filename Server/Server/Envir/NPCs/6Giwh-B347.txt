@@ -1,0 +1,26 @@
+; ===================================
+; Market Def NPC File : 4_stor-B347
+; Store (CastleGi-Ryoong)
+; -----------------------------------
+; Name: Helen
+; Job: 
+; Map No: B347
+; Pos X 12
+; Pos Y 12
+; File name: *removed*
+; Comment: Store (CastleGi-Ryoong)
+
+;================================================= =
+
+
+[Main]
+Cough cough....I'm the keeper of this warehouse.
+We don't charge people for storage service yet
+so use it before we do.
+<Use Storage/Storage>
+<Close/Exit>
+
+[Storage]
+What kind of item do you like to store?
+
+<Back/Main>

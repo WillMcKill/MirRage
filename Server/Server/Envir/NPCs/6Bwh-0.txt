@@ -1,0 +1,28 @@
+; ===================================
+; Market Def NPC File : 6Bwh-0
+; BichonProvince
+; -----------------------------------
+; Name: Brittany
+; Job: 
+; Map No: 0
+; Pos X 301
+; Pos Y 257
+; Comment: BichonProvince
+
+;================================================= =
+
+[Main]
+How can I help you, Sir/Ma'am?
+We keep people's items here for free.
+Do you want to use this service?
+<Use Storage/Storage>
+<Close/Exit>
+
+
+[Storage]
+You want to keep you item here, Sir/Ma'am?
+Of course you can.
+Please show me the items you want to deposit.
+
+<Back/Main>
+

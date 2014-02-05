@@ -1,0 +1,15 @@
+[Main]
+I am a Collector Please Sell me everything.
+
+
+<Sell/Sell>
+<Exit/Exit>
+
+
+
+
+[Sell]
+What would you like to Sell?
+
+<Back/Main>
+<Exit/Exit>

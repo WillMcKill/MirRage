@@ -1,0 +1,55 @@
+; ===================================
+; Market Def NPC File : 4_wep2-4
+; (CastleGi-Ryoong)
+; -----------------------------------
+; Name: Wayne
+; Job: 
+; Map No: 4
+; Pos X 212
+; Pos Y 236
+; File name: *removed*
+; Comment: (CastleGi-Ryoong)
+
+;================================================= =
+
+[Main]
+Welcome. Thanks for dropping in
+<Buy/Buy>  weapon
+<Sell/Sell>  weapon
+<Repair/Repair> weapon
+<Close/Exit>
+
+[Buy]
+Which item would you like to buy?
+
+<Back/Main>
+
+[Sell]
+Show me your weapon to be sold.
+
+<Back/Main>
+
+[Repair]
+Would like to repair weapon? Show me your weapon that need it.
+
+<Back/Main>
+
+
+[Types]
+1
+
+[Trade]
+WoodenSword
+HoaSword
+Dagger
+EbonySword
+BronzeSword
+SharpHoaSword
+ShortSword
+IronSword
+BasicVelocityBlades
+BronzeAxe
+HookedSword
+Trident
+Scimitar
+VelocityBlades

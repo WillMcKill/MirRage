@@ -1,0 +1,52 @@
+; ===================================
+; Market Def NPC File : 7Mst-3
+; GroceryStore (MongchonProvince)
+; -----------------------------------
+; Name: Kevin
+; Job: 
+; Map No: 3
+; Pos X 346
+; Pos Y 334
+; File name: *removed*
+; Comment: GroceryStore (MongchonProvince)
+
+;================================================= =
+
+
+[Main]
+Welcome. How can I help you?
+
+<Buy/Buy> item
+<Sell/Sell> item
+<Cancel/Exit>
+
+
+
+[Buy]
+What items do you need?
+
+<Back/Main>
+
+[Sell]
+We treat candles, amulets, scrolls, repair oil and so on.
+...but we have limited stock...
+
+<Back/Main>
+
+
+[Types]
+8
+12
+
+[Trade]
+Candle
+Torch
+RandomTeleport
+DungeonEscape
+TownTeleport
+Amulet
+GreenPoison
+RedPoison
+RepairOil
+
+

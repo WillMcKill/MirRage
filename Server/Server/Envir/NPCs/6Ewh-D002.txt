@@ -1,0 +1,29 @@
+; ===================================
+; Market Def NPC File : 6Ewh-D002
+; Storage (OmaCave)
+; -----------------------------------
+; Name: Storage
+; Job: 
+; Map No: D002
+; Pos X 174
+; Pos Y 216
+; File name: *removed*
+; Comment: Storage (OmaCave)
+
+;================================================= =
+
+
+[Main]
+Cough cough....I'm the keeper of this warehouse.
+We don't charge people for storage service yet
+so use it before we do.
+<Use Storage/Storage>
+<Close/Exit>
+
+[Storage]
+What kind of item do you like to store?
+
+
+
+<Back/Main>
+

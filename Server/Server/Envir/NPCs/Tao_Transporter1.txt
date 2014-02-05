@@ -1,0 +1,107 @@
+; ===================================
+; Npc Def NPC File : Woomyon_Transporter1-11
+; Town Teleport npc in TaoVillage
+; -----------------------------------
+; Name: Sigmund
+; Job: 
+; Map No: 11
+; Pos X 
+; Pos Y 
+; File name: *removed*
+; Comment: Town Teleport npc in TaoVillage
+
+;================================================= =
+;
+
+[Main]
+Hello I'm Sigmund, the wandering warrior.
+I transport men and goods to other places
+fast and safe. Just pay the fee
+then i'll escort you to anywhere.
+So what do you say?
+
+<I'll use the service/tele>
+<Maybe next time/Exit>
+
+[tele]
+Now which place you wanna go?
+
+<Castle Bichon (500 gold)/move1>
+<Serpent Valley (1000 gold)/move2>
+<CastleGi-Ryoong (1000 gold)/move3>
+<Border village (1000 gold)/move4>
+<Ginko Tree Village (1000 gold)/move5>
+<Mongchon province (2000 gold)/move6>
+<Maybe next time/Exit>
+
+[move1]
+#IF
+checkgold 500
+#ACT
+takegold 500
+move 0 296 221
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/Exit>
+
+[move2]
+#IF
+checkgold 500
+#ACT
+takegold 500
+move 2 500 485
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/Exit>
+
+[move3]
+#IF
+checkgold 1000
+#ACT
+takegold 1000
+move 4 264 257
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/Exit>
+
+[move4]
+#IF
+checkgold 500
+#ACT
+takegold 500
+move 0 289 617
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+<Exit/Exit>
+
+[move5]
+#IF
+checkgold 500
+#ACT
+takegold 500
+move 0 635 613
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/Exit>
+
+[move6]
+#IF
+checkgold 1000
+#ACT
+takegold 1000
+move 3 361 342
+#ELSESAY
+You don't have enough gold to use my service!
+Be gone, don't waste my time again!
+
+<Exit/Exit>
+

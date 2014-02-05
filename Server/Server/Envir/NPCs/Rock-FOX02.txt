@@ -1,0 +1,40 @@
+; ===================================
+; Npc Def NPC File : GuardianRock-FOX02
+; 
+; -----------------------------------
+; Name: GuardianRock
+; Job: 
+; Map No: FOX02
+; Pos X 
+; Pos Y 
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+
+
+[Main]
+#IF
+CHECKITEM AdmissionOrb 1
+#SAY
+You hear a slight whisper in the wind
+You have the forbidden Orb...
+You may pass hunter!
+
+<Pass/Pass>                          <Do not pass/Exit>
+
+#ELSESAY
+You hear a slight whisper in the wind
+Only parties weilding the forbidden Orb may pass here.
+
+[Pass]
+#IF
+CHECKITEM AdmissionOrb 1
+#ACT
+TAKEITEM AdmissionOrb 1
+#ACT
+Move FOX03 47 21
+
+#ELSESAY
+You hear a slight whisper in the wind
+Only parties weilding the forbidden Orb may pass here.

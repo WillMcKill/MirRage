@@ -1,0 +1,57 @@
+; ===================================
+; Market Def NPC File : 8Tri-0141
+; Jewelers
+; -----------------------------------
+; Name: Alice
+; Job: Jeweler
+; Map No: 0141
+; Pos X 23
+; Pos Y 23
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+;
+
+[Main]
+Welcome. What can I do for you?
+
+<Buy/Buy> ring
+<Sell/Sell> ring
+<Repair/Repair> ring
+<Cancel/Exit>
+
+[Buy]
+Which ring would you like to buy?
+
+
+
+<Back/Main>
+
+[Sell]
+Would you like to sell a ring?
+
+
+
+<Back/Main>
+
+[Repair]
+Would you like to repair a ring?
+
+
+
+<Back/Main>
+
+[Types]
+7
+
+[Trade]
+CopperRing
+HexagonalRing
+GlassRing
+HornRing
+IronRing
+WhiteJadeRing
+BlueRing
+
+

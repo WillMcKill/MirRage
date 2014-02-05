@@ -1,0 +1,35 @@
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> Items
+<Sell/Sell> Items
+<Close/Exit>
+
+[Buy]
+What Item would you like to buy?
+
+<Back/Main>
+
+[Sell]
+What Item would you like to sell?
+
+<Back/Main>
+
+[Types]
+8
+12
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(MP)DrugSmall
+(MP)DrugMedium
+Candle
+Torch
+RandomTeleport
+DungeonEscape
+TownTeleport
+Amulet
+GreenPoison
+RedPoison

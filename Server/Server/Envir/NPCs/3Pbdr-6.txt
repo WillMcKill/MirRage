@@ -1,0 +1,67 @@
+; ===================================
+; Market Def NPC File : 3Pbdr
+; 
+; -----------------------------------
+; Name: James
+; Job: 
+; Map No: 6
+; Pos X 111
+; Pos Y 162
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+
+[Main]
+To survive from bloody battles, you need strong Armour.
+You see. You are now here because your Armour
+has been protecting you for long.
+You can't believe?. Trust me.
+
+<buy/Buy> protective wearings
+<sell/Sell> protective wearings
+<repair/Repair> protective wearings
+<close/Exit>
+
+
+[Buy]
+Come on! Have a look.
+
+<back/Main>
+
+[Sell]
+I will pay you good for good quality ones.
+
+<back/Main>
+
+[Repair]
+Ha!..you used it quite badly..
+
+<back/Main>
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+BaseDress(M)
+BaseDress(F)
+LightArmour(M)
+LightArmour(F)
+HeavyArmour(M)
+HeavyArmour(F)
+MagicRobe(M)
+MagicRobe(F)
+SoulArmour(M)
+SoulArmour(F)
+RelicArmour(M)
+RelicArmour(F)
+BronzeHelmet
+MagicHelmet
+LeatherBelt
+ChainBelt
+LowShoes
+LeatherBoots

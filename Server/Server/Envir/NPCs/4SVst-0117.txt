@@ -1,0 +1,44 @@
+; ===================================
+; Market Def NPC File : 4SVst-0117
+; PotionStore (SerpentValley)
+; -----------------------------------
+; Name: Patrik
+; Job: 
+; Map No: 0117
+; Pos X 505
+; Pos Y 497
+; File name: *removed*
+; Comment: PotionStore (SerpentValley)
+
+;================================================= =
+
+
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> Drug
+<Sell/Sell> Drug
+<Cancel/Exit>
+
+[Buy]
+Which item do you want to buy?
+
+<Back/Main>
+
+
+[Sell]
+Show me your item, I'll offer you a good price.
+
+<Back/Main>
+
+
+[Types]
+13
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(HP)DrugLarge
+(MP)DrugSmall
+(MP)DrugMedium
+(MP)DrugLarge

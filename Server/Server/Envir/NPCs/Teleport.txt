@@ -1,0 +1,155 @@
+[Main]
+Where would you like to teleport?
+
+<OmaCaves/OC>,  <NaturalCaves/NC>
+<WoomaTemple/WT>,  <WoomaTemple KR/WTKR>
+<BugCaves/BC>, <StoneDungeon/SD>
+<TreePath/RMV>,  <RedMoonValley2nd/RMV2ND>
+<ZumaTemple/ZT>, <Black Dragon Dungeon/BDD>
+
+<Exit/Exit>
+
+
+
+[OC]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 1 142 38
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.
+
+<Back/Main>
+<Exit/Exit>
+
+[NC]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 1 47 113
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.
+
+<Back/Main>
+<Exit/Exit>
+
+
+
+[WT]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 49 90 283 
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.
+
+<Back/Main>
+<Exit/Exit>
+
+
+
+[WTKR]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 52 45 358
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.
+
+<Back/Main>
+<Exit/Exit>
+
+
+
+[BC]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 73 141 91 
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.
+
+<Back/Main>
+<Exit/Exit>
+
+
+
+[SD]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 73 298 338
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.
+
+<Back/Main>
+<Exit/Exit>
+
+
+
+[RMV]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 113 96 24
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.
+
+<Back/Main>
+<Exit/Exit>
+
+
+
+[RMV2ND]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 115 96 182
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.
+
+<Back/Main>
+<Exit/Exit>
+
+[ZT]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 117 14 20
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.
+
+<Back/Main>
+<Exit/Exit>
+
+
+[BDD]
+#IF
+CHECKGOLD 1000
+#ACT
+Move 134 61 71
+GiveItem TownTeleport
+TakeGold 1000
+#ELSESAY
+You do not have enough Gold to teleport.
+
+<Back/Main>
+<Exit/Exit>

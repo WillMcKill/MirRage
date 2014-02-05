@@ -1,0 +1,29 @@
+[Main]
+Hello welcome to my store.
+What can I sell you?
+
+<Buy/Buy>
+<Sell/Sell>
+<Exit/Exit>
+
+
+[Buy]
+I have a wide range of potions to Sell, Take your time.
+
+<Back/Main>
+<Exit/Exit>
+
+[Sell]
+What would you like to Sell?
+
+<Back/Main>
+<Exit/Exit>
+
+
+[Trade]
+(HP)DrugSmall
+(HP)DrugMedium
+(HP)DrugLarge
+(MP)DrugSmall
+(MP)DrugMedium
+(MP)DrugLarge

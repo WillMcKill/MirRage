@@ -1,0 +1,65 @@
+; ===================================
+; Market Def NPC File : 8Wac-1005
+; Jewelers
+; -----------------------------------
+; Name: Ken
+; Job: 
+; Map No: 1005
+; Pos X 9
+; Pos Y 11
+; File name: *removed*
+; Comment: Jewelers
+
+;================================================= =
+
+[Main]
+This is a place to research and develop accessories.
+Also various kinds of accessories are stored here.
+Other items as well as accessories for taoists are prepared
+Select what you would like please.
+
+<Buy/Buy> accesory
+<Sell/Sell> accesory
+<Repair/Repair> accesory
+<Cancel/Exit>
+
+[Buy]
+Which accessory would you like to buy?
+
+<Back/Main>
+
+[Sell]
+Show me the accessory you wish to sell.
+
+<Back/Main>
+
+[Repair]
+Give me the accessory you want to repair.
+
+<Back/Main>
+
+[Types]
+5
+6
+7
+
+[Trade]
+CopperRing
+HexagonalRing
+GlassRing
+HornRing
+IronRing
+WhiteJadeRing
+BlueRing
+IronBracelet
+ThinBracelet
+LeatherGlove
+SilverBracelet
+SteelBracelet
+LargeBracelet
+GoldNecklace
+PrecisionNecklace
+BlackNecklace
+EbonyNecklace
+YellowNecklace
+

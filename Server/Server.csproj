@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{263074D6-AB8D-4F3C-9CE6-A05405432BCE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Server</RootNamespace>
+    <AssemblyName>Server</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Server\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Release\Server\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\ClientPackets.cs">
+      <Link>MirNetwork\ClientPackets.cs</Link>
+    </Compile>
+    <Compile Include="..\Common.cs">
+      <Link>Common.cs</Link>
+    </Compile>
+    <Compile Include="..\ServerPackets.cs">
+      <Link>MirNetwork\ServerPackets.cs</Link>
+    </Compile>
+    <Compile Include="DragonInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DragonInfoForm.Designer.cs">
+      <DependentUpon>DragonInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemInfoForm.Designer.cs">
+      <DependentUpon>ItemInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MirDatabase\AccountInfo.cs" />
+    <Compile Include="AccountInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountInfoForm.Designer.cs">
+      <DependentUpon>AccountInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MirDatabase\AuctionInfo.cs" />
+    <Compile Include="MirDatabase\CharacterInfo.cs" />
+    <Compile Include="MirDatabase\DragonInfo.cs" />
+    <Compile Include="MirDatabase\MagicInfo.cs" />
+    <Compile Include="MirDatabase\MonsterInfo.cs" />
+    <Compile Include="MirDatabase\MovementInfo.cs" />
+    <Compile Include="MirDatabase\NPCInfo.cs" />
+    <Compile Include="MirDatabase\RespawnInfo.cs" />
+    <Compile Include="MirDatabase\SafeZoneInfo.cs" />
+    <Compile Include="MirEnvir\Dragon.cs" />
+    <Compile Include="MirEnvir\Map.cs" />
+    <Compile Include="MirDatabase\MapInfo.cs" />
+    <Compile Include="ListViewNF.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigForm.Designer.cs">
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MirEnvir\Envir.cs" />
+    <Compile Include="MapInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MapInfoForm.Designer.cs">
+      <DependentUpon>MapInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MirNetwork\MirConnection.cs" />
+    <Compile Include="MirObjects\DelayedAction.cs" />
+    <Compile Include="MirObjects\ItemObject.cs" />
+    <Compile Include="MirObjects\MapObject.cs" />
+    <Compile Include="MirObjects\MonsterObject.cs" />
+    <Compile Include="MirObjects\Monsters\AxeSkeleton.cs" />
+    <Compile Include="MirObjects\Monsters\BoneFamiliar.cs" />
+    <Compile Include="MirObjects\Monsters\BugBagMaggot.cs" />
+    <Compile Include="MirObjects\Monsters\CannibalPlant.cs" />
+    <Compile Include="MirObjects\Monsters\CaveMaggot.cs" />
+    <Compile Include="MirObjects\Monsters\BoneSpearman.cs" />
+    <Compile Include="MirObjects\Monsters\BoneLord.cs" />
+    <Compile Include="MirObjects\Monsters\BombSpider.cs" />
+    <Compile Include="MirObjects\Monsters\BlackFoxman.cs" />
+    <Compile Include="MirObjects\Monsters\HumanWizard.cs" />
+    <Compile Include="MirObjects\Monsters\DragonStatue.cs" />
+    <Compile Include="MirObjects\Monsters\EvilMirBody.cs" />
+    <Compile Include="MirObjects\Monsters\EvilMir.cs" />
+    <Compile Include="MirObjects\Monsters\HedgeKekTal.cs" />
+    <Compile Include="MirObjects\Monsters\GreatFoxSpirit.cs" />
+    <Compile Include="MirObjects\Monsters\ThunderElement.cs" />
+    <Compile Include="MirObjects\Monsters\GuardianRock.cs" />
+    <Compile Include="MirObjects\Monsters\TrapRock.cs" />
+    <Compile Include="MirObjects\Monsters\WhiteFoxman.cs" />
+    <Compile Include="MirObjects\Monsters\RedFoxman.cs" />
+    <Compile Include="MirObjects\Monsters\OmaKing.cs" />
+    <Compile Include="MirObjects\Monsters\YinDevilNode.cs" />
+    <Compile Include="MirObjects\Monsters\RootSpider.cs" />
+    <Compile Include="MirObjects\Monsters\HolyDeva.cs" />
+    <Compile Include="MirObjects\Monsters\CrystalSpider.cs" />
+    <Compile Include="MirObjects\Monsters\Yimoogi.cs" />
+    <Compile Include="MirObjects\Monsters\SandWorm.cs" />
+    <Compile Include="MirObjects\Monsters\FrostTiger.cs" />
+    <Compile Include="MirObjects\Monsters\MinotaurKing.cs" />
+    <Compile Include="MirObjects\Monsters\LeftGuard.cs" />
+    <Compile Include="MirObjects\Monsters\RightGuard.cs" />
+    <Compile Include="MirObjects\Monsters\ToxicGhoul.cs" />
+    <Compile Include="MirObjects\Monsters\Khazard.cs" />
+    <Compile Include="MirObjects\Monsters\ShamanZombie.cs" />
+    <Compile Include="MirObjects\Monsters\RevivingZombie.cs" />
+    <Compile Include="MirObjects\Monsters\DigOutZombie.cs" />
+    <Compile Include="MirObjects\Monsters\DarkDevil.cs" />
+    <Compile Include="MirObjects\Monsters\Deer.cs" />
+    <Compile Include="MirObjects\Monsters\EvilCentipede.cs" />
+    <Compile Include="MirObjects\Monsters\FlamingWooma.cs" />
+    <Compile Include="MirObjects\Monsters\Guard.cs" />
+    <Compile Include="MirObjects\Monsters\HarvestMonster.cs" />
+    <Compile Include="MirObjects\Monsters\IncarnatedGhoul.cs" />
+    <Compile Include="MirObjects\Monsters\IncarnatedZT.cs" />
+    <Compile Include="MirObjects\Monsters\KingScorpion.cs" />
+    <Compile Include="MirObjects\Monsters\RedMoonEvil.cs" />
+    <Compile Include="MirObjects\Monsters\RedThunderZuma.cs" />
+    <Compile Include="MirObjects\Monsters\Shinsu.cs" />
+    <Compile Include="MirObjects\Monsters\SpittingSpider.cs" />
+    <Compile Include="MirObjects\Monsters\Tree.cs" />
+    <Compile Include="MirObjects\Monsters\WoomaTaurus.cs" />
+    <Compile Include="MirObjects\Monsters\ZumaMonster.cs" />
+    <Compile Include="MirObjects\Monsters\ZumaTaurus.cs" />
+    <Compile Include="MirObjects\NPCObject.cs" />
+    <Compile Include="MirObjects\PlayerObject.cs" />
+    <Compile Include="MirObjects\SpellObject.cs" />
+    <Compile Include="MonsterInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonsterInfoForm.Designer.cs">
+      <DependentUpon>MonsterInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="SMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SMain.Designer.cs">
+      <DependentUpon>SMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccountInfoForm.resx">
+      <DependentUpon>AccountInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigForm.resx">
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DragonInfoForm.resx">
+      <DependentUpon>DragonInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemInfoForm.resx">
+      <DependentUpon>ItemInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MapInfoForm.resx">
+      <DependentUpon>MapInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonsterInfoForm.resx">
+      <DependentUpon>MonsterInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SMain.resx">
+      <DependentUpon>SMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

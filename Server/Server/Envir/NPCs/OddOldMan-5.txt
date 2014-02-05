@@ -1,0 +1,39 @@
+; ===================================
+; Npc Def NPC File : OddOldMan-5
+; 
+; -----------------------------------
+; Name: Herald
+; Job: 
+; Map No: 5
+; Pos X 
+; Pos Y 
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+
+[Main]
+If you really want to go back to the past, possess a piece
+of TimeStone. This piece of stone will help you to
+timetravel back to the past. But if your level is below 33,
+you can not timetravel even with the stone. I know it is
+expensive. If you don't want to buy it try the drops from
+monsters. It may take some time but you can save money...
+<buy/buystone> TimeStonePiece
+<sell/Sell> TimeStonePiece
+<close/Exit>
+
+
+[buystone]
+20000 gold for one piece...You want it?
+
+<yes/buystonenow>
+<no. too expensive/Exit>
+
+[buystonenow]
+#IF
+checkgold 20000
+#ACT
+takegold 20000
+giveitem TimeStonePiece 1
+

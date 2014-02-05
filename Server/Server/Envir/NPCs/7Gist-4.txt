@@ -1,0 +1,65 @@
+; ===================================
+; Market Def NPC File : 7Gist-4
+; 
+; -----------------------------------
+; Name: Derby
+; Job: 
+; Map No: 4
+; Pos X 252
+; Pos Y 222
+; File name: *removed*
+; Comment:
+
+;================================================= =
+;
+
+[Main]
+Oh! Welcome, What are you looking for?
+There is a wide variety of useful goods here.
+Please have a look.
+
+<Buy/Buy>
+<Sell/Sell>
+<Talk/talk> with Derby
+<Close/Exit>
+
+[Buy]
+Everything I sell here may look meagre but
+they are all necessary things.
+Ok, What do you want to buy?
+
+<Back/Main>
+
+
+[Sell]
+Oh what a coincidence!
+I was just about to order some more goods since
+the stock is running low.
+What do you want to sell?
+
+<Back/Main>
+
+
+[@talk]
+This is such an isolated place - goods are usually scarce.
+It's people like me who keep helping to maintain some prosperity
+here by importing goods from outside. Heh heh heh..
+
+<Back/Main>
+
+[Types]
+8
+12
+
+[Trade]
+Candle
+Torch
+RandomTeleport
+DungeonEscape
+TownTeleport
+Amulet
+GreenPoison
+RedPoison
+RepairOil
+
+

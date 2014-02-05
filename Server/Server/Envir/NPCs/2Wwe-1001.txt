@@ -1,0 +1,62 @@
+; ===================================
+; Market Def NPC File : 2Wwe-1001
+; Blacksmith in TaoVillage (WeaponShop)
+; -----------------------------------
+; Name: Jerald
+; Job: Blacksmith
+; Map No: 1001
+; Pos X 14
+; Pos Y 12
+; File name: *removed*
+; Comment: Blacksmith in TaoVillage (WeaponShop)
+
+;================================================= =
+
+[Main]
+This is a weapon storage.
+This is one of the most guarded places of the Taoist School.
+These days we sell the extra weapons to visitors at a price
+set just to cover the cost of manufacture. How may I help you?
+
+<Buy/Buy> weapon
+<Sell/Sell> weapon
+<Repair/Repair> weapon
+<Special Repair/SRepair> weapon
+<Cancel/Exit>
+
+
+
+[Buy]
+You can find here many kind of weapons.
+What weapon do you want?
+
+<Back/Main>
+
+[Sell]
+Lay down your weapon to be sold.
+
+<Back/Main>
+
+[Repair]
+Would you like to repair your weapon?
+
+<Back/Main>
+
+[Types]
+1
+
+[Trade]
+WoodenSword
+HoaSword
+Dagger
+EbonySword
+BronzeSword
+SharpHoaSword
+ShortSword
+IronSword
+BasicVelocityBlades
+BronzeAxe
+HookedSword
+Trident
+Scimitar
+VelocityBlades

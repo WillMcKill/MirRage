@@ -1,0 +1,13 @@
+[Main]
+What kind of poison do you want to buy?
+
+
+<Buy/Buy> Poison
+<Cancel/Exit>
+
+[Types]
+13
+
+[Trade]
+GreenPoison
+RedPoison

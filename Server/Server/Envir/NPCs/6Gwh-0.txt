@@ -1,0 +1,29 @@
+; ===================================
+; Market Def NPC File : 9Gwh-0
+; Storage 
+; -----------------------------------
+; Name: Monica
+; Job: 
+; Map No: 0
+; Pos X 621
+; Pos Y 642
+; File name: *removed*
+; Comment: Storage 
+
+;================================================= =
+
+
+[Main]
+Cough cough....I'm the keeper of this warehouse.
+We don't charge people for storage service yet
+so use it before we do.
+<Use Storage/Storage>
+<Close/Exit>
+
+
+[Storage]
+What kind of item do you like to store?
+
+
+
+<Back/Main>

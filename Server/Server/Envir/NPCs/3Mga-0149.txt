@@ -1,0 +1,51 @@
+; ===================================
+; Market Def NPC File : 3Mga-0149
+; 
+; -----------------------------------
+; Name: Laura
+; Job: 
+; Map No: 0149
+; Pos X 11
+; Pos Y 18
+; File name: *removed*
+; Comment: Clothesshop
+
+;================================================= =
+
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> Bracelet
+<Sell/Sell> Bracelet
+<Repair/Repair> Bracelet
+<Cancel/Exit>
+
+[Buy]
+Which Bracelet would you like?
+
+<Back/Main>
+
+[Sell]
+Show me the Bracelet you wish to sell.
+
+<Back/Main>
+
+[Repair]
+Give me the Bracelet you want to repair.
+
+<Back/Main>
+
+
+[Types]
+6
+
+[Trade]
+IronBracelet
+ThinBracelet
+LeatherGlove
+SilverBracelet
+SteelBracelet
+LargeBracelet
+
+
+

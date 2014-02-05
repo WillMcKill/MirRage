@@ -1,0 +1,30 @@
+[Main]
+Welcome, what can I do for you?
+
+<Buy/Buy> Meat
+<Sell/Sell> Meat
+<Cancel/Exit>
+
+[Buy]
+Please choose what you want to buy.
+
+
+<Back/Main>
+
+
+[Sell]
+If you have high quality meat please sell it to me
+I'll pay well for it
+
+
+<Back/Main>
+
+[Types]
+15
+
+[Trade]
+Meat
+Chicken
+
+
+

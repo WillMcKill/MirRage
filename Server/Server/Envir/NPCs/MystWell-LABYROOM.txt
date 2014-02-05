@@ -1,0 +1,43 @@
+; ===================================
+; Npc Def NPC File : MysteriousWell-LABYROOM
+; 
+; -----------------------------------
+; Name: MysteriousWell
+; Job: 
+; Map No: LABYROOM
+; Pos X 16
+; Pos Y 14
+; File name: *removed*
+; Comment: 
+
+;================================================= =
+
+[Main]
+(I sence a strange power in the well.)
+(Looking inside, feeling as if being absorbed in it.)
+(Ah! An image of the Dragon just emerged
+and them disappeared on the center of the well.)
+(Is this something related to the Dragon?)
+
+<Drop the Dragonscale./Dmove>\
+<Leave./leave>
+
+
+[Dmove]
+#IF
+checkitem DragonScale 1
+#ACT
+takeitem DragonScale 1
+Move snakepre 256 210
+
+#ELSESAY
+You do not have the DragonScale!
+
+<Close/Exit>
+
+
+[leave]
+#ACT
+Move 2
+
+

@@ -1,0 +1,81 @@
+; ===================================
+; Market Def NPC File : 8Giac-B344
+; 
+; -----------------------------------
+; Name: Monica
+; Job: 
+; Map No: B344
+; Pos X 16
+; Pos Y 14
+; File name: *removed*
+; Comment:
+
+;================================================= =
+
+
+[Main]
+Welcome, Sir/Madam.
+Have you come here to buy accessories?
+
+<Buy/Buy>
+<Sell/Sell>
+<Repair/Repair>
+<Talk/@talk> with Monica
+<Close/Exit>
+
+[Buy]
+There are many accessories in this shop.
+Please take your time and have a look.
+
+<Back/Main>
+
+[Sell]
+Would you mind showing me the item you want to sell?
+I hope you want to sell something that we don't
+have.
+
+<Back/Main>
+
+[Repair]
+You may think I'm too young but I'm quite adept at.
+the craft.Just give me a chance,I'll repair
+it perfectly.
+
+<Back/Main>
+
+[talk]
+There is a mysterious cave north-west of this castle.
+Whoever entered the cave never came back and
+even though the authorities controled the rumor,
+almost everyone knows about it.
+What? You've heard about it already?
+
+<Back/Main>
+
+
+[Types]
+5
+6
+7
+
+[Trade]
+CopperRing
+HexagonalRing
+GlassRing
+HornRing
+IronRing
+WhiteJadeRing
+BlueRing
+IronBracelet
+ThinBracelet
+LeatherGlove
+SilverBracelet
+SteelBracelet
+LargeBracelet
+GoldNecklace
+PrecisionNecklace
+BlackNecklace
+EbonyNecklace
+YellowNecklace
+
+

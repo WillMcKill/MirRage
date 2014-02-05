@@ -1,0 +1,26 @@
+; ===================================
+; Market Def NPC File : 6Mwh-3
+; Storage (MongchonProvince)
+; -----------------------------------
+; Name: Jessica
+; Job: 
+; Map No: 3
+; Pos X 305
+; Pos Y 373
+; File name: *removed*
+; Comment: Storage (MongchonProvince)
+
+;================================================= =
+
+
+[Main]
+Cough cough....I'm the keeper of this warehouse.
+We don't charge people for storage service yet
+so use it before we do.
+<Use Storage/Storage>
+<close/Exit>
+
+[Storage]
+What kind of item do you like to store?
+
+<Back/Main>

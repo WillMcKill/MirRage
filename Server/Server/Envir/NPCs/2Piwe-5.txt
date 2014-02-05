@@ -1,0 +1,78 @@
+; ===================================
+; Market Def NPC File : 2Piwe-5
+; PrajnaIsland (WeaponShop)
+; -----------------------------------
+; Name: Colby
+; Job: 
+; Map No: 5
+; Pos X 156
+; Pos Y 297
+; File name: *removed*
+; Comment: PrajnaIsland (WeaponShop)
+
+;================================================= =
+
+[Main]
+Welcome. Your look tells me you are from far place.
+You came here to repair your weapon?
+
+<Buy weapon/Buy>
+<Sell weapon/Sell>
+<Repair weapon/Repair>
+<Ask special repair/SRepair>
+<Talk with Colby/Talk>
+<Close/Exit>
+
+[Buy]
+We've got most of the weapons
+you can get from the mainland.
+Just choose what you want.
+
+<back/Main>
+
+[Sell]
+Oh! Nice to hear that!
+If you've got some usefull ones, please show me.
+
+<back/Main>
+
+[Repair]
+You want the normal repair?
+Hmmm, you are having some financial trouble, aren't you?
+Anyway, give me the weapon.
+
+<back/Main>
+
+[@SRepair]
+Hey guy! You are very lucky...
+We have material to do special repairs,
+Instead, please keep in mind that the price
+would be 3 times higher than normal price.
+
+<back/Main>
+
+[Talk]
+I'm not originally from this island.
+I really miss my home town,
+but i'm not sure I will see it again...
+
+<Back/Main>
+
+[Types]
+1
+
+[Trade]
+WoodenSword
+HoaSword
+Dagger
+EbonySword
+BronzeSword
+SharpHoaSword
+ShortSword
+IronSword
+BasicVelocityBlades
+BronzeAxe
+HookedSword
+Trident
+Scimitar
+VelocityBlades

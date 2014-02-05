@@ -1,0 +1,66 @@
+; ===================================
+; Market Def NPC File : 3Mdr-0149
+; 
+; -----------------------------------
+; Name: Brenda
+; Job: 
+; Map No: 0149
+; Pos X 23
+; Pos Y 20
+; File name: *removed*
+; Comment: Clothesshop
+
+;================================================= =
+
+
+[Main]
+Welcome, how may I help you?
+
+<Buy/Buy> Clothes
+<Sell/Sell> Clothes
+<Repair/Repair> Clothes
+<Cancel/Exit>
+
+[Buy]
+What item do you want to buy?
+
+<Back/Main>
+
+[Sell]
+Show me your Clothes to be sold. I'll give you an appraisement.
+So if you like my store please sell them to me.
+
+<Back/Main>
+
+[Repair]
+You can repair Clothes here.
+
+<Back/Main>
+
+
+[Types]
+2
+4
+9
+10
+
+[Trade]
+BaseDress(M)
+BaseDress(F)
+LightArmour(M)
+LightArmour(F)
+HeavyArmour(M)
+HeavyArmour(F)
+MagicRobe(M)
+MagicRobe(F)
+SoulArmour(M)
+SoulArmour(F)
+RelicArmour(M)
+RelicArmour(F)
+BronzeHelmet
+MagicHelmet
+LeatherBelt
+ChainBelt
+LowShoes
+LeatherBoots
+

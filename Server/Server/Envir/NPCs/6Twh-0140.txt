@@ -1,0 +1,29 @@
+; ===================================
+; Market Def NPC File : 6Twh-0140
+; Storage
+; -----------------------------------
+; Name: Anthony
+; Job: 
+; Map No: 0140
+; Pos X 8
+; Pos Y 9
+; File name: *removed*
+; Comment: Storage
+
+;================================================= =
+;
+
+[Main]
+What can I do for you?
+Please feel free to store items, we dont charge for custody.
+
+<Use Storage/Storage>
+<Close/Exit>
+
+
+[Storage]
+What item do you want to store?
+
+
+
+<Back/Main>

@@ -1,0 +1,28 @@
+; ===================================
+; Market Def NPC File : 6Bwh-0125
+; EasternInn
+; -----------------------------------
+; Name: Mary
+; Job: 
+; Map No: 0126
+; Pos X 8
+; Pos Y 6
+; File name: *removed*
+; Comment: EasternInn
+
+;================================================= =
+;
+
+[Main]
+Cough cough....I'm the keeper of this warehouse.
+We don't charge people for storage service yet
+so use it before we do.
+<Use Storage/Storage>
+<Close/Exit>
+
+[Storage]
+What kind of item do you like to store?
+
+
+
+<Back/Main>

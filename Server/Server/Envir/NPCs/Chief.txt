@@ -1,0 +1,143 @@
+; ===================================
+; Npc Def NPC File : Chief
+; Dungeon Teleport npc in
+; -----------------------------------
+; Name: Chief
+; Job: 
+; Map No:
+; Pos X 
+; Pos Y 
+; File name: *removed*
+; Comment: Dungeon Teleport npc
+
+;================================================= =
+
+[Main]
+I'm in charge of the transport system in the entire region.
+Unlike other transporters, I can even take you
+to many hunting fields where brave people usually adventure,
+so tell me if there's a particular place where you want to go.
+Of course, I will send you there free of any charge.
+
+<Tell/next1> me to which field you want to go.
+I will be back <later/Exit>
+
+[next1]
+Select the region where the hunting field is located.
+
+Dungeon of[<Bichon Province/bichon>] region
+Dungeon of[<Mongchon Province/mongchon>] region
+Dungeon of[<Tao Village/taovillage>] region
+Dungeon of[<Castle Gi-Ryoong/castlegi>] region
+Dungeon of[<Prajna Island/prajna>] region
+
+I will make use of it <later./Exit>
+
+[bichon]
+Select a hunting field you wish to move to.
+<Oma Cave/omacave>	  <Oma Natural Cave/omanat>
+<Bichon Dead Pit/bwmine>
+
+I will move to <other place./next1>
+
+[mongchon]
+Select a hunting field you wish to move to.
+<Death Valley/bugcave>	  <Zuma Temple/zumatemple>
+<Angled Stone Tomb/stonetomb>     <Connection Cave/conncave>
+
+I will move to <other place./next1>
+
+[taovillage]
+Select a hunting field you wish to move to.
+<Insect Cave/insectcave>	  <Wooma Temple/woomatemple>
+<Mineral Mine/mineralmine>      <Red Valley/spidercave>
+
+I will move to <other place./next1>
+
+[castlegi]
+Select a hunting field you wish to move to.
+<Black Dragon Dungeon/bddungeon>
+
+I will move to <other place./next1>
+
+[prajna]
+Select a hunting field you wish to move to.
+<Prajna Cave/prajnacave>	  <Prajna Stone Cave/prajnastonecave>
+<Prajna Temple/prajnatemple>
+
+I will move to <other place./next1>
+
+[omacave]
+#IF
+#ACT
+map 41
+
+[@omanat]
+#IF
+#ACT
+map 46
+
+[@bwmine]
+#IF
+#ACT
+map 59
+
+[@bugcave]
+#IF
+#ACT
+map 85
+
+[@zumatemple]
+#IF
+#ACT
+map 118
+
+[@stonetomb]
+#IF
+#ACT
+map 95
+
+[@conncave]
+#IF
+#ACT
+map D701
+
+[@insectcave]
+#IF
+#ACT
+map D2041
+
+[@woomatemple]
+#IF
+#ACT
+map D022
+
+[@mineralmine]
+#IF
+#ACT
+map D2031
+
+[@spidercave]
+#IF
+#ACT
+map D10011
+
+[@bddungeon]
+#IF
+#ACT
+map D2001
+
+[@prajnacave]
+#IF
+#ACT
+map D2051
+
+[@prajnastonecave]
+#IF
+#ACT
+map D2061
+
+[@prajnatemple]
+#IF
+#ACT
+map D2071
